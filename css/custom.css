@@ -1,0 +1,60 @@
+.footer {
+  text-align: center;
+  background-color: #222;
+  color: #9d9d9d;
+  width: 100%;
+	height: 50px;
+	line-height: 50px;
+	white-space: nowrap;
+}
+
+.pagination {
+	margin: 2em 0;
+	width: 100%;
+}
+
+.pagination-item {
+	display: block;
+	width: 50%;
+	padding: 1em;
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+
+.newer {
+	float: right;
+	position: relative;
+	left: -1px;
+}
+
+.older {
+  float: left;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+html, body {
+	height: 100%;
+}
+
+.content {
+	min-height: calc(100% - 52px);
+	margin-bottom: -50px;
+}
+
+.content:after {
+  content:"";
+  display:block;
+	height: 50px;
+}
+
+* {
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	text-align: justify;
+}
