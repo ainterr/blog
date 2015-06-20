@@ -49,7 +49,7 @@ Since I don\'t have a dutch oven, I used a crock pot to slow cook, rather than b
 5. Transfer ribs to a foil-lined baking sheet, cover with foil, and set in the oven on warm.
 6. Slice carrots into two inch segments. Add carrots and potatoes to the crockpot and turn it up to high. Cook until vegetables are soft and have absorbed the flavor of the marinade - a couple hours.
 7. Transfer carrots and potatoes to the oven with the ribs. Strain the liquid from the crockpot into a medium saucepan and reduce by 3/4 over medium-high heat, skimming fat from the top occasionally with a paper towel - about 15 minutes.
-8. Plate the ribs and vegetables and add finely chopped parsley for garnish - one rib per person.
+8. Plate the ribs and vegetables, drizzle sauce over the top, and add finely chopped parsley for garnish - one rib per person.
 
 ---
 
