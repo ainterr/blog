@@ -54,7 +54,8 @@ html, body {
 	margin: 0;
 }
 
-p {
-	font-size: 16px;
+article {
+	font-size: 22px;
+	line-height: 190%;
 	text-align: justify;
 }
