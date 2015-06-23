@@ -9,10 +9,15 @@
 
     <div class="container content">
       {{ content }}
+	  
+	  {% include social.html %}
     </div>
-
+	
     {% include footer.html %}
 
   </body>
+  
+  <!-- Google Analytics -->
+  {% include analytics.html %}
 
 </html>

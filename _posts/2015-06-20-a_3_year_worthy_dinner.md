@@ -4,9 +4,11 @@ title:  "A 3-Year Worthy Dinner"
 date:   2015-06-20 10:30:00
 categories: food
 ---
-##**The Process**
-
 As of yesterday, June 19th, my girlfriend and I have been dating for three years. We exchanged gifts and both planned elaborate surprizes for each other - I woke up at 4:30 in the morning to make her banana pancakes before work (that we ate while listening to [Banana Pancakes](https://youtu.be/SfnuApqiDBA)) and she set up a cute treasure hunt for me to come home to to find my card. I\'ve been stepping it up in the kitchen lately and, although I knew I had to make her favorite dessert, bananas foster, I wanted to try something completely new for dinner. As is my custom when I\'m looking for something new to cook, I browsed [Epicurious](http://www.epicurious.com/), looking for pretty pictures and impressive sounding titles until I stumbled upon a recipe for [Chile-Braised Short Ribs](http://www.epicurious.com/recipes/food/views/chile-braised-short-ribs-51147480). Having never braised anything and never cooked short ribs, it seemed like an appropriately challenging recipe to celebrate 3 years together.
+
+---
+
+###**The Process**
 
 I made a run to the grocery store a few nights ahead to make sure I could get all of the ingredients I needed. The Whole Foods near my apartment has a pretty good butcher and I found some very nice short ribs at a great price. The only thing I wasn\'t able to find was ancho or New Mexico chiles so I substituted pastilla chiles, or chiles negro. These chiles aren\'t as spicy as their dried poblano counterparts (anchos) but instead have a much more complex flavor and result in a thick, smokey marinade with a lot of deep flavors. Rather than buying the ground cumin and coriander that the recipe calls for, I ground it fresh from the spices my girlfriend brough back from her most recent trip to India.
 

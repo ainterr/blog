@@ -1,8 +1,12 @@
 # Site settings
+author: Alex Interrante-Grant
 title: Blog
+name: Alex Interrante-Grant's Blog
 description: > # this means to ignore newlines until "baseurl:"
   Alex Interrante-Grant's personal blog for tutorials, lessons learned, and new ideas.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://ainterr.github.io/blog/"
 main_site: "http://ainterr.github.io"
 paginate: 1
 permalink: none
+license: "http://ainterr.github.io/license.txt"
