@@ -4,7 +4,6 @@ title:  "A 3-Year Worthy Dinner"
 date:   2015-06-20 10:30:00
 categories: food
 ---
-
 ##**The Process**
 
 As of yesterday, June 19th, my girlfriend and I have been dating for three years. We exchanged gifts and both planned elaborate surprizes for each other - I woke up at 4:30 in the morning to make her banana pancakes before work (that we ate while listening to [Banana Pancakes](https://youtu.be/SfnuApqiDBA)) and she set up a cute treasure hunt for me to come home to to find my card. I\'ve been stepping it up in the kitchen lately and, although I knew I had to make her favorite dessert, bananas foster, I wanted to try something completely new for dinner. As is my custom when I\'m looking for something new to cook, I browsed [Epicurious](http://www.epicurious.com/), looking for pretty pictures and impressive sounding titles until I stumbled upon a recipe for [Chile-Braised Short Ribs](http://www.epicurious.com/recipes/food/views/chile-braised-short-ribs-51147480). Having never braised anything and never cooked short ribs, it seemed like an appropriately challenging recipe to celebrate 3 years together.
@@ -22,7 +21,7 @@ Since I don\'t have a dutch oven, I used a crock pot to slow cook, rather than b
 ![plate]({{ site.baseurl }}/img/2015-06-20/plate.jpg)
 
 ---
-
+<div class="recipe" markdown="1">
 ##**The (Adapted) Recipe**
 
 ###**Ingredients**
@@ -50,8 +49,8 @@ Since I don\'t have a dutch oven, I used a crock pot to slow cook, rather than b
 6. Slice carrots into two inch segments. Add carrots and potatoes to the crockpot and turn it up to high. Cook until vegetables are soft and have absorbed the flavor of the marinade - a couple hours.
 7. Transfer carrots and potatoes to the oven with the ribs. Strain the liquid from the crockpot into a medium saucepan and reduce by 3/4 over medium-high heat, skimming fat from the top occasionally with a paper towel - about 15 minutes.
 8. Plate the ribs and vegetables, drizzle sauce over the top, and add finely chopped parsley for garnish - one rib per person.
-
+</div>
 ---
 
 ##**Coming Soon...**
-I\'m still working on the first post in my Windows AIK series - don\'t wory it\'s coming soon.
+I\'m still working on the first post in my [Windows AIK](http://www.microsoft.com/en-US/Download/details.aspx?id=5753) series - don\'t wory it\'s coming soon.
