@@ -39,11 +39,11 @@ The WIM file format allows us to capture an image of our system that is only as 
 
 The final step in our image creation process is roll our custom WIM file into a Windows installation disk so that you can simply boot from the disk and install your custom image just as you would install a stock version of Windows. Windows installation media actually contains a default WIM image that's applied to the system when it's installed. By unpacking a Windows ISO, replacing the right WIM file, and repacking using [oscdimg](https://technet.microsoft.com/en-us/library/cc749036(v=ws.10).aspx) (another AIK tool), we'll have successfully created our custom windows image.
 
+<div class="recipe" markdown="1">
 ###**TL;DR**
 
 The broad strokes of using the AIK to create custom installation media are actually fairly simple:
 
-<div class="recipe" markdown="1">
 1. Install and configure Windows on a reference computer, adding all your custom software and configuration settings.
 2. [Sysprep](https://en.wikipedia.org/wiki/Sysprep) the reference computer to generalize the image.
 3. Capture a [WIM](https://technet.microsoft.com/en-us/library/cc749478(v=ws.10).aspx) image of the system using [imagex](https://technet.microsoft.com/en-us/library/cc722145(v=ws.10).aspx).

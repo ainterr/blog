@@ -78,12 +78,17 @@ article p {
 .recipe {
 	border: 1px solid #dddddd;
 	padding: 2em;
+	margin: 30px 0;
 	
 	-moz-box-shadow: 0px 0px 4px #bbb;
 	-webkit-box-shadow: 0px 0px 4px #bbb;
 	box-shadow: 0px 0px 4px #bbb;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bbbbbb')";
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bbbbbb');
+}
+
+.recipe:first-child {
+	margin-top: 0px;
 }
 
 .social {
@@ -129,6 +134,6 @@ article p {
 }
 
 img {
-	margin: 0 auto;
+	margin: 30px auto;
 	display: block;
 }
