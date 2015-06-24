@@ -71,6 +71,10 @@ article p {
 	text-align: justify;
 }
 
+.post {
+	margin-top: 50px;
+}
+
 .recipe {
 	border: 1px solid #dddddd;
 	padding: 2em;
