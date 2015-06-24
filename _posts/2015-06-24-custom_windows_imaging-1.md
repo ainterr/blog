@@ -2,7 +2,8 @@
 layout: post
 title:  "Custom Windows Images - Part I: Introduction"
 date:   2015-06-24 17:00:00
-categories: technical windows
+categories: technical
+tags: custom windows image aik
 ---
 
 My work at Raytheon often involved working with remote systems located overseas. These systems were designed to be nearly identical to one another - with like hardware, software, and physical configuration. As an added measure of complication, there is no means of accessing these systems remotely - any changes, IA configuration, or compliance verification had to be done through the proxy of a local system administrator. If my team wanted to make an IA change to the systems, we had to develop detailed instructions and oversee the deployment of these changes, working with each sys admin individually - there was no doing it ourselves. If a piece of hardware failed and needed to be replaced, it would have to be configured to our security standards by the sys admins by hand. There had to be a better way of standardizing these systems, hadn't there? Enter the Windows [Automated Installation Kit (AIK)](http://www.microsoft.com/en-US/Download/details.aspx?id=5753).

@@ -10,3 +10,4 @@ main_site: "http://ainterr.github.io"
 paginate: 1
 permalink: none
 license: "http://ainterr.github.io/license.txt"
+excerpt_separator: "\n"
