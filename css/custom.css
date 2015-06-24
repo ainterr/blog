@@ -75,6 +75,24 @@ article p {
 	margin-top: 50px;
 }
 
+.post-header {
+  margin-bottom: 0px;
+}
+
+.post-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.post-title a {
+  color: #333;
+}
+
+.post-title a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
 .recipe {
 	border: 1px solid #dddddd;
 	padding: 2em;
@@ -87,7 +105,7 @@ article p {
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bbbbbb');
 }
 
-.recipe:first-child {
+.recipe h3:first-child, h2:first-child {
 	margin-top: 0px;
 }
 
@@ -136,4 +154,12 @@ article p {
 img {
 	margin: 30px auto;
 	display: block;
+}
+
+.more {
+  text-align: center;
+}
+
+.more a {
+  font-style: italic;
 }
