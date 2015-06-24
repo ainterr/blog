@@ -123,3 +123,8 @@ article p {
 .social .fa-envelope-o:hover{
   background: #333;
 }
+
+img {
+	margin: 0 auto;
+	display: block;
+}
