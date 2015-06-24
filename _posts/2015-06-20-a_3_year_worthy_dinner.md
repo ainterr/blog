@@ -24,7 +24,8 @@ Since I don\'t have a dutch oven, I used a crock pot to slow cook, rather than b
 
 ---
 <div class="recipe" markdown="1">
-##**The (Adapted) Recipe**
+##**Chile "Braised" Short Ribs**
+Adapted from [Epicurious](http://www.epicurious.com/recipes/food/views/chile-braised-short-ribs-51147480)
 
 ###**Ingredients**
 * **3.5 lbs.** Thick, cross cut, bone in short ribs (about 4)
