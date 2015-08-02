@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Custom Windows Images - Part I: Introduction"
+title:  "Custom Windows Imaging - Part I: Introduction"
 date:   2015-06-24 17:00:00
 categories: technical
 tags: custom windows image aik
