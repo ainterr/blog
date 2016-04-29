@@ -14,11 +14,11 @@ There are countless advantages to home canning and I've been meaning to start fo
 
 The biggest challenge I had was getting all of the pots to fit on my stove... Once I'd figured that out, the rest was a breeze.
 
-###**Picking the Best Tomatoes**
+### **Picking the Best Tomatoes**
 
 Tomatoes should only be canned in the peak of summer, when they're at their ripest (and cheapest) and you should always used the highest quality tomatoes you can get. Otherwise, it's hard to justify the time it takes to make and can the sauce. In my reading, I found that people generally prefer to use some variety of plum tomato (ie Roma) because the high surface area to volume ratio leads to a more flavorful sauce. My local farmer's market, unfortunately, doesn't sell them so I opted for regular, vine-ripened tomatoes, making sure to select the smallest and the reddest.
 
-###**The Process**
+### **The Process**
 
 I started a pot of boiling water and made an ice bath to blanch the tomatoes. While I was waiting for the water to boil, I washed and cored (cut out the hard part once connected to the vine) the tomatoes, cutting a small x into the bottom of each one.
 

@@ -9,7 +9,7 @@ Now that we know the broad strokes of creating custom windows images (see [Part 
 
 ![aik]({{ site.baseurl }}/img/2015-08-02/aik.png)
 
-###**Hardware Recommendations**
+### **Hardware Recommendations**
 The [Windows AIK](http://www.microsoft.com/en-US/Download/details.aspx?id=5753) is fairly lightweight and can be installed on Windows 7/Server 2008 or later (it's designed for 7/2008). As such it can easily be run on a low-spec system - I have developed custom images in [VirtualBox](https://www.virtualbox.org/) on a laptop with a 3rd gen i5 processor, 8 Gb RAM, and a 320 Gb HDD. That being said, I would highly recommend a much snappier, and dedicated machine if you can afford it. Storage speed and RAM are key here since we will be running a lot of virtual machines, storing a lot of virtual snapshots, and generating large image files. Here's what I'd recommend:
 
 * **CPU**: 3rd Gen i7 or later (or equivalent AMD)
@@ -18,7 +18,7 @@ The [Windows AIK](http://www.microsoft.com/en-US/Download/details.aspx?id=5753) 
 * **Storage**: 1 Tb Solid State Storage - storage speed is key here so SSDs are a necessity. To save money and achieve even faster speeds, consider [RAIDing a few smaller SSDs](http://www.pcworld.com/article/2365767/feed-your-greed-for-speed-by-installing-ssds-in-raid-0.html). For high fidelity applications you may want to use a redundant RAID scheme since the SSDs will eventually fail under heavy use.
 * **DVD Drive**: Burning the images to DVD goes much faster with a x8 or x16 drive. Of course, you may not even need a DVD drive if you'll be [creating bootable USB media](https://rufus.akeo.ie/).
 
-###**Server Setup**
+### **Server Setup**
 Now that you've got the hardware for your new image development server, you'll need an operating system and some virtualization software. I would recommend Windows Server 2008 R2 - simply because this is the OS that the AIK was designed for. As far as virtualization software goes, I'd recommend one of two options:
 
 1. [VMware Workstation](https://www.vmware.com/products/workstation) - VMware has been in the business of virtualization a long time and develops high-quality products. Workstation features very robust VM configuration, allowing a lot of advanced configuration and a very sleek and intuitive UI. The Workstation edition isn't free so this is the more expensive option.
@@ -26,7 +26,7 @@ Now that you've got the hardware for your new image development server, you'll n
 
 If you opted for solid state storage, image creation and virtual machine deployment will be very quick, especially with the right RAID configuration. Performance can be optimized by creating a physically or logically separate operating system partition. That way OS reads/writes do not get in the way of VM or image creation reads/writes.
 
-###**AIK Setup**
+### **AIK Setup**
 
 Now that you've got your hardware, OS, and virtualization environment, it's time to install the AIK and build a Windows PE image with imageX. The AIK can be downloaded [here](https://www.microsoft.com/en-us/download/details.aspx?id=5753) from the Microsoft download center. It ships as an iso image so you'll have to burn it to DVD or expand it with 3rd party software and transfer it to your new server. Installation is pretty straightforward and shouldn't run into any problems on a fresh install of Server 2008.
 
@@ -42,7 +42,7 @@ As you may remember from [Part I]({{site.baseurl}}/technical/custom_windows_imag
 Now that you have your bootable WinPE ISO, we should have everything we need to start building custom images. Check back for the final part of this series when I describe the process of [syspreping](https://en.wikipedia.org/wiki/Sysprep) a custom built system, capturing an image of it with [imageX](https://technet.microsoft.com/en-us/library/cc722145(v=ws.10).aspx), and packing it all into a custom installation disk.
 
 <div class="recipe" markdown="1">
-###**TL;DR**
+### **TL;DR**
 When building a virtualization server for custom Windows image creation:
 
 * Storage speed is key - I *highly* recommend solid state storage.

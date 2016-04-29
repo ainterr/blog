@@ -11,3 +11,4 @@ paginate: 5
 permalink: none
 license: "http://ainterr.github.io/license.txt"
 excerpt_separator: "\n"
+gems: [jekyll-paginate]

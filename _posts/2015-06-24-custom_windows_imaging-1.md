@@ -10,7 +10,7 @@ My work at Raytheon often involved working with remote systems located overseas.
 
 ![Windows]({{ site.baseurl }}/img/2015-06-24/windows.png)
 
-###**The Goal**
+### **The Goal**
 Let's step back a bit and think about what we're trying to accomplish.
 
 Imagine we're provisioning some brand new, bare metal systems with Windows 7 - our theoretical network has experienced a recent increase in the number of concurrent users and we need to add some more workstations to accommodate. *No big deal, right? We'll just install Windows 7 and then configure each system individually.* But what if we need to install MATLAB, and Microsoft Office, and Adobe Creative Suite, and Firefox, and Antivirus, and corporate branding, and the new logon banner that legal approved, and we need to configure security settings (see [STIG](https://en.wikipedia.org/wiki/Security_Technical_Implementation_Guide)), and ...
@@ -25,7 +25,7 @@ It turns out there are a number of problems with that strategy too:
 
 So we need a way to capture the all of the installed software, files, and configuration settings on a reference system and stuff it into an installation disk that, when booted from, will install our custom image, generate a new SID, and allow you to enter a new product key and re-activate.
 
-###**The Process**
+### **The Process**
 
 To overcome the duplicate SID problem, we'll use Microsoft's built-in (although somewhat hidden) system preparation tool [sysprep](https://en.wikipedia.org/wiki/Sysprep). Using sysprep you can revert a system to an "out of the box" state, queueing the first boot SID generation script, generating a new system name, rerunning hardware detection, and clearing out a number of other installation-dependent system settings to be regenerated on the next boot.
 
@@ -40,7 +40,7 @@ The WIM file format allows us to capture an image of our system that is only as 
 The final step in our image creation process is roll our custom WIM file into a Windows installation disk so that you can simply boot from the disk and install your custom image just as you would install a stock version of Windows. Windows installation media actually contains a default WIM image that's applied to the system when it's installed. By unpacking a Windows ISO, replacing the right WIM file, and repacking using [oscdimg](https://technet.microsoft.com/en-us/library/cc749036(v=ws.10).aspx) (another AIK tool), we'll have successfully created our custom windows image.
 
 <div class="recipe" markdown="1">
-###**TL;DR**
+### **TL;DR**
 
 The broad strokes of using the AIK to create custom installation media are actually fairly simple:
 
@@ -52,7 +52,7 @@ The broad strokes of using the AIK to create custom installation media are actua
 
 ---
 
-##**Coming Soon...**
+## **Coming Soon...**
 In the next part of my custom Windows imaging guide, we'll dive into the Windows AIK and I'll talk about setting up a robust imaging platform using virtualization that you can use to develop, image, and deploy custom Windows installations.
 
 ---

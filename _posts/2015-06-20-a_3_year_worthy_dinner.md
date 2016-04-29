@@ -9,7 +9,7 @@ As of yesterday, June 19th, my girlfriend and I have been dating for three years
 
 ---
 
-###**The Process**
+### **The Process**
 
 I made a run to the grocery store a few nights ahead to make sure I could get all of the ingredients I needed. The Whole Foods near my apartment has a pretty good butcher and I found some very nice short ribs at a great price. The only thing I wasn\'t able to find was ancho or New Mexico chiles so I substituted pastilla chiles, or chiles negro. These chiles aren\'t as spicy as their dried poblano counterparts (anchos) but instead have a much more complex flavor and result in a thick, smokey marinade with a lot of deep flavors. Rather than buying the ground cumin and coriander that the recipe calls for, I ground it fresh from the spices my girlfriend brough back from her most recent trip to India.
 
@@ -25,10 +25,10 @@ Since I don\'t have a dutch oven, I used a crock pot to slow cook, rather than b
 
 ---
 <div class="recipe" markdown="1">
-##**Chile "Braised" Short Ribs**
+## **Chile "Braised" Short Ribs**
 Adapted from [Epicurious](http://www.epicurious.com/recipes/food/views/chile-braised-short-ribs-51147480)
 
-###**Ingredients**
+### **Ingredients**
 * **3.5 lbs.** Thick, cross cut, bone in short ribs (about 4)
 * **6 to 8** Dried chiles of your choosing (ancho, pastilla, New Mexico, etc.)
 * **1** Lemon
@@ -44,7 +44,7 @@ Adapted from [Epicurious](http://www.epicurious.com/recipes/food/views/chile-bra
 * **5 tsp** Coarse Ground Kosher Salt
 * Parsley for garnish
 
-###**Directions**
+### **Directions**
 1. Remove the stems and as many seeds as possible from the dried chiles. Toast in a pan over medium heat until they start to puff up and smoke. Transfer to a bowl and cover with warm to boiling water and let set until soft. Remove remaining seeds.
 2. Combine garlic, tomato paste, coriander, cumin, salt, olive oil, zest and juice of lemon, and the softened, seeded chiles in a food processor and pulse until smooth. Add olive oill if necessary to form a thin paste for the marinade.
 3. Toss ribs with mixture in a gallon ziploc bag until coated and allow to marinate in the fridge overnight.

@@ -14,7 +14,7 @@ One of the main reasons I enjoy cooking is that you can create delicious, health
 
 Cappelletti, literally "little hats" in Italian, are nearly identical to tortellini but are usually slightly larger and have a pointed, rather than rounded, top. While tortellini are typically made by stuffing small circles of pasta with ground meat, cappelletti are made with squares. Because I didn't have a round cookie cutter, I opted for the latter.
 
-###**The Process**
+### **The Process**
 
 I decided to go the traditional route and combined a spicy Italian sausage with prosciutto, parmesan, and bread crumbs for the filling. After running it all through the food processor I let it chill in the fridge while I made the pasta.
 
@@ -40,11 +40,11 @@ When all was said and done the whole process took more than three hours for abou
 
 ---
 <div class="recipe" markdown="1">
-##**Cappelletti from Scratch**
+## **Cappelletti from Scratch**
 
-###**Ingredients**
+### **Ingredients**
 
-####**Filling**
+#### **Filling**
 * **4 oz** Spicy Italian Sausage (cured)
 * **4 oz** Prosciutto
 * **1/4 Cup** Shredded Parmesan Cheese
@@ -53,22 +53,22 @@ When all was said and done the whole process took more than three hours for abou
 * Nutmeg
 * Black Pepper
 
-####**Pasta**
+#### **Pasta**
 * **4** Eggs
 * **3 Cups** Flour
 * **2 Tbs** Olive Oil
 * Room Temperature Water
 * Fine Salt
 
-###**Directions**
+### **Directions**
 
-####**Filling**
+#### **Filling**
 1. Combine sausage and prosciutto in a food processor and chop until fine chunks remain.
 2. In a separate bowl beat the egg and add some fresh grated nutmeg.
 3. In a bowl, combine meat with parmesan and breadcrumbs and fold in the beaten egg.
 4. Cover the mixture and place in the fridge to chill.
 
-####**Pasta**
+#### **Pasta**
 5. Add flour and a pinch of salt to a (clean) food processor.
 6. Turn the food processor on low and room temperature eggs, one at a time. Eggs can be run under hot water for a short time to reach room temperature.
 7. With the food processor running, add olive oil and continue adding warm water as the mixture thickens.
@@ -77,7 +77,7 @@ When all was said and done the whole process took more than three hours for abou
 10. After the dough has had time to fully distribute moisture, cut it into eight small balls. Flatten each with your hand before running through a pasta machine, one notch at a time until reaching a #3 thickness.
 11. Hang the pasta somewhere it can dry for a short time - I use a clothes rack but have used the backs of chairs in the past.
 
-####**Final Steps**
+#### **Final Steps**
 12. Working one pasta sheet at a time, cut pasta into small 2" squares.
 13. Fill with a small spoonful of filling and fold two of the corners together, sealing with a touch of water.
 14. Wrap the remaining corners around your finger and set the finished cappelletti on a well floured surface.

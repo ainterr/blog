@@ -9,7 +9,7 @@ A few weeks ago, my girlfriend came home frustrated about work. She's currently 
 
 ![dropbox]({{ site.baseurl }}/img/2015-06-28/dropbox.png)
 
-###**Installing the API**
+### **Installing the API**
 It's easiest to install the [Dropbox API](https://www.dropbox.com/developers/core) using [pip](https://pip.pypa.io/en/latest/index.html). Short for **P**ython **I**nstalls **P**ython, pip is similar to ruby's [bundler](http://bundler.io/) - it will download and install python packages for you, automatically fetching their dependencies as well. To install pip:
 
 1. Download and run [get-pip.py](https://bootstrap.pypa.io/get-pip.py) as an administrator.
@@ -17,7 +17,7 @@ It's easiest to install the [Dropbox API](https://www.dropbox.com/developers/cor
 
 Once pip is installed, you can simply run `pip install dropbox` from an administrator command prompt to install the Dropbox API. To verify that it was installed correctly, open a python command prompt and run `import dropbox` - if you don't get any errors you're good to go.
 
-###**Create a Dropbox Application**
+### **Create a Dropbox Application**
 Dropbox requires that you register any application using their services through their developer console. To generate a new app key and secret:
 
 1. Log into the [Dropbox Developer Console](https://www.dropbox.com/developers/apps)  
@@ -30,7 +30,7 @@ Dropbox requires that you register any application using their services through 
 
 Copy down the App Key and App Secret from the settings page of your new app - these uniquely identify your application. Dropbox applications use [OAuth 2.0](http://oauth.net/2/) to allow access to a user's files. This means that your application must request access (and be approved) to a user's account.
 
-###**Setup a Template for your Scripts**
+### **Setup a Template for your Scripts**
 The [API tutorial](https://www.dropbox.com/developers/core/start/python) guides you through the process of setting up your first script and provides some examples of commmonly used functionality. Here's a template script that you can use to get started:
 
 {% highlight python %}
