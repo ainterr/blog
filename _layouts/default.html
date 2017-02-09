@@ -5,19 +5,18 @@
 
   <body>
 
-	{% include header.html %}
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          {% include header.html %}
+        </div>
+        <div class="container">
+          {{ content }}
 
-    <div class="container content">
-      {{ content }}
-	  
-	  {% include social.html %}
+          {% include footer.html %}
+        </div>
+      </div>
     </div>
-	
-    {% include footer.html %}
 
   </body>
-  
-  <!-- Google Analytics -->
-  {% include analytics.html %}
-
 </html>

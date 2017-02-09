@@ -1,26 +1,30 @@
 ---
 layout: default
-title: Home
 ---
 
-<div class="posts">
 {% for post in paginator.posts %}
-<article class="post">
-<header class="post-header">
-<h1 class="post-title">
-<a href="{{ site.baseurl }}{{ post.url }}">
-{{ post.title }}
-</a>
-</h1>
-<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-</header>
 
-{{ post.excerpt }}
-<div class="more">
-  <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading &raquo;</a>
+<div class="post">
+<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+<p>{{ post.date | date: "%b %-d, %Y" }}</p>
+<p>{{ post.excerpt }}</p>
+<p class="text-center"><a href="{{ post.url | prepend: site.baseurl }}">Continue Reading &raquo;</a></p>
 </div>
-</article>
+
 {% endfor %}
-</div>
 
-{% include pagination_nav.html %}
+<div class="text-center form-group">
+  <div class="btn-group" role="group" aria-label="Basic example">
+    {% if paginator.next_page %}
+    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    {% else %}
+    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Older</a>
+    {% endif %}
+    <a class="btn btn-lg btn-outline-secondary" href="{{ '/archive/' | prepend: site.baseurl }}">Archive</a>
+    {% if paginator.previous_page %}
+    <a class="btn btn-lg btn-outline-secondary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    {% else %}
+    <a class="btn btn-lg btn-outline-secondary disabled" href="#">Newer</a>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,9 @@
+---
+layout: page
+title: Archive 
+permalink: /archive/
+---
+
+{% for post in site.posts %}
+<p>* {{ post.date | date_to_string }} &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+{% endfor %}
