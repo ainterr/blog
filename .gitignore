@@ -3,3 +3,4 @@ _site
 *~
 serve
 _drafts/
+*.swp

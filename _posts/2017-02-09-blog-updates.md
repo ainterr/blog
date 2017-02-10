@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blog Updates"
-date:   2017-02-09 2:30:00 -0500
+date:   2017-02-09 14:30:00 -0500
 categories: update
 ---
 You may have noticed this blog and [my website] look a bit different today. I
@@ -12,7 +12,7 @@ on my website and I figured I might as well just use the services I already
 have for things like listing my experience (LinkedIn) and enumerating my
 projects (github).
 
-![website]({{ site.baseurl }}/img/20170209/website.png)
+![website]({{ site.baseurl }}/img/blog-updates/website.png)
 
 This means a few things for the future (and past) of this blog.
 
