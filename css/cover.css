@@ -156,7 +156,10 @@ div.post p {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    max-height: 60vh;
 }
 
 p a {
