@@ -165,3 +165,7 @@ img {
 p a {
     text-decoration: underline;
 }
+
+.highlight, .highlight pre {
+    border-radius: 5px;
+}
