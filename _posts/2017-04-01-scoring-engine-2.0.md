@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title:  "CCDC Scoring Engine 2.0"
 date:   2017-04-01 9:00:00 -0500
 categories: projects development
