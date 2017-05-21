@@ -162,7 +162,7 @@ img {
     max-height: 60vh;
 }
 
-p a {
+p a, li a {
     text-decoration: underline;
 }
 

